@@ -7,7 +7,7 @@ import asyncHandler from "../middlewares/async";
 // @route     PUT /api/v1/e2e/clear-test-db
 // @access    Private
 const clearDB = asyncHandler(async (req, res) => {
-  await mongoose.connect("mongodb://localhost:27017/expensewise-test");
+  await mongoose.connect("mongodb://localhost:27017/spendsense-test");
   await mongoose.connection.db.dropDatabase();
 
   res.status(httpStatus.OK).json({

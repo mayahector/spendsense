@@ -125,7 +125,7 @@ const LoginPage = () => {
         component="img"
         className={classes.img}
         src={logo}
-        alt="expenseWise"
+        alt="SpendSense"
       />
       <Box
         sx={{

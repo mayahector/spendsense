@@ -97,17 +97,17 @@ const register = asyncHandler(async (req, res, next) => {
                         <body>
                           <p>Dear ${firstName} ${lastName},</p>
                           <p>
-                            Thank you for creating an account with ExpenseWise. 
+                            Thank you for creating an account with SpendSense. 
                             To activate your account, 
                             please click on the following link:
                           </p>
                           <p>
                             <a href="${confirmEmailUrl}">${confirmEmailUrl}</a>
                           </p>
-                          <p>If you did not create an account with ExpenseWise,
+                          <p>If you did not create an account with SpendSense,
                            please ignore this email.
                            </p>
-                          <p class="signature">Best regards,<br>ExpenseWise</p>
+                          <p class="signature">Best regards,<br>SpendSense</p>
                         </body>
                       </html>
                     `;

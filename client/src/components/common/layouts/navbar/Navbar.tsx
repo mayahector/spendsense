@@ -96,7 +96,7 @@ const Navbar = () => {
             color="inherit"
             underline="none"
           >
-            ExpenseWise
+            SpendSense
           </Link>
         </Typography>
         {auth && (

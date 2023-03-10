@@ -86,7 +86,7 @@ const forgotPassword = asyncHandler(async (req, res, next) => {
                           If you did not request this password reset, 
                           please ignore this message and contact us immediately.
                         </p>
-                        <p class="signature">Best regards,<br>ExpenseWise</p>
+                        <p class="signature">Best regards,<br>SpendSense</p>
                       </body>
                     </html>
                   `;

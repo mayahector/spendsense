@@ -146,7 +146,7 @@ const SignupPage = () => {
         className={classes.img}
         src={logo}
         component="img"
-        alt="expenseWise"
+        alt="SpendSense"
       />
       <Box
         sx={{

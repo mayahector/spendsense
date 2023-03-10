@@ -140,7 +140,7 @@ const Permission = ({
           </IconButton>
         </Box>
         <Box className={classes.box}>
-          <Avatar className={classes.avatar} src={logo} alt="expenseWise" />
+          <Avatar className={classes.avatar} src={logo} alt="SpendSense" />
         </Box>
 
         <form onSubmit={handleSubmit}>
